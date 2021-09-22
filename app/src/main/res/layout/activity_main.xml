@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="95dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.13999999"
+            app:srcCompat="@drawable/gun"
+            />
+
+
+
+        <TextView
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="Kate Does Food"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="16dp"
+            android:textSize="30dp"
+            android:textColor="#DC143C"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="I serve up on daily basis chances are you have landed on tbis page from my insta. The first link is the firstest recipe i have to offer.enjoy."
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#3D41BC"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:paddingTop="16dp">
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="48sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="16sp"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="40sp"
+                android:layout_height="48sp"
+                android:layout_marginLeft="10sp"
+                app:srcCompat="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/linkedin"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_marginLeft="10sp"
+                app:srcCompat="@drawable/linkedin" />
+
+            <ImageView
+                android:id="@+id/instgram"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_marginLeft="10sp"
+                app:srcCompat="@drawable/istagram" />
+
+            <ImageView
+                android:id="@+id/youtube"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_marginLeft="10sp"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/tiktok"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_marginLeft="10sp"
+                app:srcCompat="@drawable/tiktok" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:id="@+id/todayrecipies"
+            android:text="View my Today recipies" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+
+            android:id="@+id/allrecipies"
+            android:text="View all my  recipies" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:onClick="email"
+            android:text="Email me" />
+
+
+        <Button
+            android:id="@+id/newsletter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Subscribe my nasty newsletter"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
