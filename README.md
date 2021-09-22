@@ -11,5 +11,5 @@ XML, Java, Android
 Screenshots
 -----------
 
-Home Page:-
+# Home Page:-
 <img width="30%" src="screenshots/1.jpeg" />
